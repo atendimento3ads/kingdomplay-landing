@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/hg3ads37/orcamento.kingdomplay.com.br/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -f index.html $DEPLOYPATH
+    - /bin/rm -rf $DEPLOYPATH/assets
+    - /bin/cp -R assets $DEPLOYPATH
