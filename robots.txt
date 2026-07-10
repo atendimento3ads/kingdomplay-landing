@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://orcamento.kingdomplay.com.br/sitemap.xml
